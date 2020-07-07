@@ -1,0 +1,36 @@
+{
+  "name": "hrhx-antd-cli",
+  "version": "1.0.0",
+  "description": "基于Ant Design Pro搭建 华软恒信 项目CLI脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "hrhx": "bin/hrhx.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouyinghao/hrhx-antd-cli.git"
+  },
+  "keywords": [
+    "hrhx-antd-cli"
+  ],
+  "author": "邹英豪 <zouyh@sspss.com.cn>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zouyinghao/hrhx-antd-cli/issues"
+  },
+  "homepage": "https://github.com/zouyinghao/hrhx-antd-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.4.0",
+    "handlebars": "^4.7.6",
+    "open": "^7.0.4",
+    "ora": "^4.0.4",
+    "watch": "^1.0.2"
+  }
+}
